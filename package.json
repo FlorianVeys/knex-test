@@ -1,0 +1,30 @@
+{
+  "name": "knex-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorianVeys/knex-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlorianVeys/knex-test/issues"
+  },
+  "homepage": "https://github.com/FlorianVeys/knex-test#readme",
+  "dependencies": {
+    "knex": "^0.95.2",
+    "objection": "^2.2.14",
+    "pg": "^8.5.1",
+    "typescript": "^4.2.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.34"
+  }
+}
